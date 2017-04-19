@@ -605,6 +605,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pretty Apple/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Nhom5.Pretty-Apple";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -617,6 +618,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pretty Apple/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Nhom5.Pretty-Apple";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -697,6 +699,7 @@
 				38FC9F1F1EA747D000D51D52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38FC9F201EA747D000D51D52 /* Build configuration list for PBXNativeTarget "Pretty AppleTests" */ = {
 			isa = XCConfigurationList;
@@ -705,6 +708,7 @@
 				38FC9F221EA747D000D51D52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38FC9F231EA747D000D51D52 /* Build configuration list for PBXNativeTarget "Pretty AppleUITests" */ = {
 			isa = XCConfigurationList;
@@ -713,6 +717,7 @@
 				38FC9F251EA747D000D51D52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
