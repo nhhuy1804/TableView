@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38FC9EF91EA747CF00D51D52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC9EF81EA747CF00D51D52 /* AppDelegate.swift */; };
+		38FC9EFB1EA747CF00D51D52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC9EFA1EA747CF00D51D52 /* ViewController.swift */; };
+		38FC9EFE1EA747CF00D51D52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9EFC1EA747CF00D51D52 /* Main.storyboard */; };
+		38FC9F001EA747CF00D51D52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9EFF1EA747CF00D51D52 /* Images.xcassets */; };
+		38FC9F031EA747CF00D51D52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F011EA747CF00D51D52 /* LaunchScreen.storyboard */; };
+		38FC9F0E1EA747CF00D51D52 /* Pretty_AppleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC9F0D1EA747CF00D51D52 /* Pretty_AppleTests.swift */; };
+		38FC9F191EA747D000D51D52 /* Pretty_AppleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC9F181EA747D000D51D52 /* Pretty_AppleUITests.swift */; };
+		38FC9F501EA747FA00D51D52 /* airport-express.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F271EA747FA00D51D52 /* airport-express.png */; };
+		38FC9F511EA747FA00D51D52 /* airport-express.tif in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F281EA747FA00D51D52 /* airport-express.tif */; };
+		38FC9F521EA747FA00D51D52 /* airport-extreme.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F291EA747FA00D51D52 /* airport-extreme.png */; };
+		38FC9F531EA747FA00D51D52 /* airport-time-capsule.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F2A1EA747FA00D51D52 /* airport-time-capsule.png */; };
+		38FC9F541EA747FA00D51D52 /* airport-time-capsule.tif in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F2B1EA747FA00D51D52 /* airport-time-capsule.tif */; };
+		38FC9F551EA747FA00D51D52 /* aperture.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F2C1EA747FA00D51D52 /* aperture.png */; };
+		38FC9F561EA747FA00D51D52 /* apple-pay.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F2D1EA747FA00D51D52 /* apple-pay.png */; };
+		38FC9F571EA747FA00D51D52 /* apple-pay.tif in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F2E1EA747FA00D51D52 /* apple-pay.tif */; };
+		38FC9F581EA747FA00D51D52 /* apple-tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F2F1EA747FA00D51D52 /* apple-tv.png */; };
+		38FC9F591EA747FA00D51D52 /* apple-watch.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F301EA747FA00D51D52 /* apple-watch.png */; };
+		38FC9F5A1EA747FA00D51D52 /* apple-wireless-keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F311EA747FA00D51D52 /* apple-wireless-keyboard.png */; };
+		38FC9F5B1EA747FA00D51D52 /* battery-charger.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F321EA747FA00D51D52 /* battery-charger.png */; };
+		38FC9F5C1EA747FA00D51D52 /* default@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F331EA747FA00D51D52 /* default@1x.png */; };
+		38FC9F5D1EA747FA00D51D52 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F341EA747FA00D51D52 /* default@2x.png */; };
+		38FC9F5E1EA747FA00D51D52 /* display.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F351EA747FA00D51D52 /* display.png */; };
+		38FC9F5F1EA747FA00D51D52 /* eyeball.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F361EA747FA00D51D52 /* eyeball.png */; };
+		38FC9F601EA747FA00D51D52 /* final-cut-pro-x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F371EA747FA00D51D52 /* final-cut-pro-x.png */; };
+		38FC9F611EA747FA00D51D52 /* icloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F381EA747FA00D51D52 /* icloud.png */; };
+		38FC9F621EA747FA00D51D52 /* ilife.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F391EA747FA00D51D52 /* ilife.png */; };
+		38FC9F631EA747FA00D51D52 /* imac-5k.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F3A1EA747FA00D51D52 /* imac-5k.png */; };
+		38FC9F641EA747FA00D51D52 /* ios8.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F3B1EA747FA00D51D52 /* ios8.png */; };
+		38FC9F651EA747FA00D51D52 /* ipad-air2.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F3C1EA747FA00D51D52 /* ipad-air2.png */; };
+		38FC9F661EA747FA00D51D52 /* iphone6.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F3D1EA747FA00D51D52 /* iphone6.png */; };
+		38FC9F671EA747FA00D51D52 /* iphone6.tif in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F3E1EA747FA00D51D52 /* iphone6.tif */; };
+		38FC9F681EA747FA00D51D52 /* ipod-nano.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F3F1EA747FA00D51D52 /* ipod-nano.png */; };
+		38FC9F691EA747FA00D51D52 /* ipod-shuffle.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F401EA747FA00D51D52 /* ipod-shuffle.png */; };
+		38FC9F6A1EA747FA00D51D52 /* ipod-touch.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F411EA747FA00D51D52 /* ipod-touch.png */; };
+		38FC9F6B1EA747FA00D51D52 /* itunes.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F421EA747FA00D51D52 /* itunes.png */; };
+		38FC9F6C1EA747FA00D51D52 /* iwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F431EA747FA00D51D52 /* iwork.png */; };
+		38FC9F6D1EA747FA00D51D52 /* logic-pro-x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F441EA747FA00D51D52 /* logic-pro-x.png */; };
+		38FC9F6E1EA747FA00D51D52 /* mac-mini.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F451EA747FA00D51D52 /* mac-mini.png */; };
+		38FC9F6F1EA747FA00D51D52 /* mac-pro.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F461EA747FA00D51D52 /* mac-pro.png */; };
+		38FC9F701EA747FA00D51D52 /* macbook-air.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F471EA747FA00D51D52 /* macbook-air.png */; };
+		38FC9F711EA747FA00D51D52 /* macbook-air.tif in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F481EA747FA00D51D52 /* macbook-air.tif */; };
+		38FC9F721EA747FA00D51D52 /* macbook-pro-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F491EA747FA00D51D52 /* macbook-pro-13.png */; };
+		38FC9F731EA747FA00D51D52 /* macbook-pro-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F4A1EA747FA00D51D52 /* macbook-pro-retina.png */; };
+		38FC9F741EA747FA00D51D52 /* macbook.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F4B1EA747FA00D51D52 /* macbook.png */; };
+		38FC9F751EA747FA00D51D52 /* magic-mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F4C1EA747FA00D51D52 /* magic-mouse.png */; };
+		38FC9F761EA747FA00D51D52 /* magic-trackpad.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F4D1EA747FA00D51D52 /* magic-trackpad.png */; };
+		38FC9F771EA747FA00D51D52 /* os-x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F4E1EA747FA00D51D52 /* os-x.png */; };
+		38FC9F781EA747FA00D51D52 /* star_uns.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FC9F4F1EA747FA00D51D52 /* star_uns.png */; };
+		38FC9F811EA7481400D51D52 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC9F7F1EA7481400D51D52 /* Product.swift */; };
+		38FC9F821EA7481400D51D52 /* ProductLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC9F801EA7481400D51D52 /* ProductLine.swift */; };
+		38FC9F841EA7490F00D51D52 /* AppleProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FC9F831EA7490F00D51D52 /* AppleProductsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38FC9F0A1EA747CF00D51D52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38FC9EED1EA747CF00D51D52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38FC9EF41EA747CF00D51D52;
+			remoteInfo = "Pretty Apple";
+		};
+		38FC9F151EA747D000D51D52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38FC9EED1EA747CF00D51D52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38FC9EF41EA747CF00D51D52;
+			remoteInfo = "Pretty Apple";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38FC9EF51EA747CF00D51D52 /* Pretty Apple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pretty Apple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FC9EF81EA747CF00D51D52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38FC9EFA1EA747CF00D51D52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38FC9EFD1EA747CF00D51D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38FC9EFF1EA747CF00D51D52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38FC9F021EA747CF00D51D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38FC9F041EA747CF00D51D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FC9F091EA747CF00D51D52 /* Pretty AppleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pretty AppleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FC9F0D1EA747CF00D51D52 /* Pretty_AppleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pretty_AppleTests.swift; sourceTree = "<group>"; };
+		38FC9F0F1EA747CF00D51D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FC9F141EA747D000D51D52 /* Pretty AppleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pretty AppleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38FC9F181EA747D000D51D52 /* Pretty_AppleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pretty_AppleUITests.swift; sourceTree = "<group>"; };
+		38FC9F1A1EA747D000D51D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38FC9F271EA747FA00D51D52 /* airport-express.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airport-express.png"; sourceTree = "<group>"; };
+		38FC9F281EA747FA00D51D52 /* airport-express.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "airport-express.tif"; sourceTree = "<group>"; };
+		38FC9F291EA747FA00D51D52 /* airport-extreme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airport-extreme.png"; sourceTree = "<group>"; };
+		38FC9F2A1EA747FA00D51D52 /* airport-time-capsule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airport-time-capsule.png"; sourceTree = "<group>"; };
+		38FC9F2B1EA747FA00D51D52 /* airport-time-capsule.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "airport-time-capsule.tif"; sourceTree = "<group>"; };
+		38FC9F2C1EA747FA00D51D52 /* aperture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aperture.png; sourceTree = "<group>"; };
+		38FC9F2D1EA747FA00D51D52 /* apple-pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-pay.png"; sourceTree = "<group>"; };
+		38FC9F2E1EA747FA00D51D52 /* apple-pay.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "apple-pay.tif"; sourceTree = "<group>"; };
+		38FC9F2F1EA747FA00D51D52 /* apple-tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-tv.png"; sourceTree = "<group>"; };
+		38FC9F301EA747FA00D51D52 /* apple-watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-watch.png"; sourceTree = "<group>"; };
+		38FC9F311EA747FA00D51D52 /* apple-wireless-keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-wireless-keyboard.png"; sourceTree = "<group>"; };
+		38FC9F321EA747FA00D51D52 /* battery-charger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery-charger.png"; sourceTree = "<group>"; };
+		38FC9F331EA747FA00D51D52 /* default@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@1x.png"; sourceTree = "<group>"; };
+		38FC9F341EA747FA00D51D52 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
+		38FC9F351EA747FA00D51D52 /* display.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = display.png; sourceTree = "<group>"; };
+		38FC9F361EA747FA00D51D52 /* eyeball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyeball.png; sourceTree = "<group>"; };
+		38FC9F371EA747FA00D51D52 /* final-cut-pro-x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "final-cut-pro-x.png"; sourceTree = "<group>"; };
+		38FC9F381EA747FA00D51D52 /* icloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icloud.png; sourceTree = "<group>"; };
+		38FC9F391EA747FA00D51D52 /* ilife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ilife.png; sourceTree = "<group>"; };
+		38FC9F3A1EA747FA00D51D52 /* imac-5k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imac-5k.png"; sourceTree = "<group>"; };
+		38FC9F3B1EA747FA00D51D52 /* ios8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios8.png; sourceTree = "<group>"; };
+		38FC9F3C1EA747FA00D51D52 /* ipad-air2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad-air2.png"; sourceTree = "<group>"; };
+		38FC9F3D1EA747FA00D51D52 /* iphone6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone6.png; sourceTree = "<group>"; };
+		38FC9F3E1EA747FA00D51D52 /* iphone6.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = iphone6.tif; sourceTree = "<group>"; };
+		38FC9F3F1EA747FA00D51D52 /* ipod-nano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipod-nano.png"; sourceTree = "<group>"; };
+		38FC9F401EA747FA00D51D52 /* ipod-shuffle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipod-shuffle.png"; sourceTree = "<group>"; };
+		38FC9F411EA747FA00D51D52 /* ipod-touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipod-touch.png"; sourceTree = "<group>"; };
+		38FC9F421EA747FA00D51D52 /* itunes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itunes.png; sourceTree = "<group>"; };
+		38FC9F431EA747FA00D51D52 /* iwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iwork.png; sourceTree = "<group>"; };
+		38FC9F441EA747FA00D51D52 /* logic-pro-x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logic-pro-x.png"; sourceTree = "<group>"; };
+		38FC9F451EA747FA00D51D52 /* mac-mini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mac-mini.png"; sourceTree = "<group>"; };
+		38FC9F461EA747FA00D51D52 /* mac-pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mac-pro.png"; sourceTree = "<group>"; };
+		38FC9F471EA747FA00D51D52 /* macbook-air.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "macbook-air.png"; sourceTree = "<group>"; };
+		38FC9F481EA747FA00D51D52 /* macbook-air.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "macbook-air.tif"; sourceTree = "<group>"; };
+		38FC9F491EA747FA00D51D52 /* macbook-pro-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "macbook-pro-13.png"; sourceTree = "<group>"; };
+		38FC9F4A1EA747FA00D51D52 /* macbook-pro-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "macbook-pro-retina.png"; sourceTree = "<group>"; };
+		38FC9F4B1EA747FA00D51D52 /* macbook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macbook.png; sourceTree = "<group>"; };
+		38FC9F4C1EA747FA00D51D52 /* magic-mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magic-mouse.png"; sourceTree = "<group>"; };
+		38FC9F4D1EA747FA00D51D52 /* magic-trackpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magic-trackpad.png"; sourceTree = "<group>"; };
+		38FC9F4E1EA747FA00D51D52 /* os-x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "os-x.png"; sourceTree = "<group>"; };
+		38FC9F4F1EA747FA00D51D52 /* star_uns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_uns.png; sourceTree = "<group>"; };
+		38FC9F7F1EA7481400D51D52 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		38FC9F801EA7481400D51D52 /* ProductLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductLine.swift; sourceTree = "<group>"; };
+		38FC9F831EA7490F00D51D52 /* AppleProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleProductsTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38FC9EF21EA747CF00D51D52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FC9F061EA747CF00D51D52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FC9F111EA747D000D51D52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38FC9EEC1EA747CF00D51D52 = {
+			isa = PBXGroup;
+			children = (
+				38FC9EF71EA747CF00D51D52 /* Pretty Apple */,
+				38FC9F0C1EA747CF00D51D52 /* Pretty AppleTests */,
+				38FC9F171EA747D000D51D52 /* Pretty AppleUITests */,
+				38FC9EF61EA747CF00D51D52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38FC9EF61EA747CF00D51D52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38FC9EF51EA747CF00D51D52 /* Pretty Apple.app */,
+				38FC9F091EA747CF00D51D52 /* Pretty AppleTests.xctest */,
+				38FC9F141EA747D000D51D52 /* Pretty AppleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38FC9EF71EA747CF00D51D52 /* Pretty Apple */ = {
+			isa = PBXGroup;
+			children = (
+				38FC9EF81EA747CF00D51D52 /* AppDelegate.swift */,
+				38FC9EFA1EA747CF00D51D52 /* ViewController.swift */,
+				38FC9F831EA7490F00D51D52 /* AppleProductsTableViewController.swift */,
+				38FC9EFC1EA747CF00D51D52 /* Main.storyboard */,
+				38FC9EFF1EA747CF00D51D52 /* Images.xcassets */,
+				38FC9F011EA747CF00D51D52 /* LaunchScreen.storyboard */,
+				38FC9F041EA747CF00D51D52 /* Info.plist */,
+				38FC9F261EA747FA00D51D52 /* DemoAssets */,
+				38FC9F7E1EA7481400D51D52 /* Model */,
+			);
+			path = "Pretty Apple";
+			sourceTree = "<group>";
+		};
+		38FC9F0C1EA747CF00D51D52 /* Pretty AppleTests */ = {
+			isa = PBXGroup;
+			children = (
+				38FC9F0D1EA747CF00D51D52 /* Pretty_AppleTests.swift */,
+				38FC9F0F1EA747CF00D51D52 /* Info.plist */,
+			);
+			path = "Pretty AppleTests";
+			sourceTree = "<group>";
+		};
+		38FC9F171EA747D000D51D52 /* Pretty AppleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38FC9F181EA747D000D51D52 /* Pretty_AppleUITests.swift */,
+				38FC9F1A1EA747D000D51D52 /* Info.plist */,
+			);
+			path = "Pretty AppleUITests";
+			sourceTree = "<group>";
+		};
+		38FC9F261EA747FA00D51D52 /* DemoAssets */ = {
+			isa = PBXGroup;
+			children = (
+				38FC9F271EA747FA00D51D52 /* airport-express.png */,
+				38FC9F281EA747FA00D51D52 /* airport-express.tif */,
+				38FC9F291EA747FA00D51D52 /* airport-extreme.png */,
+				38FC9F2A1EA747FA00D51D52 /* airport-time-capsule.png */,
+				38FC9F2B1EA747FA00D51D52 /* airport-time-capsule.tif */,
+				38FC9F2C1EA747FA00D51D52 /* aperture.png */,
+				38FC9F2D1EA747FA00D51D52 /* apple-pay.png */,
+				38FC9F2E1EA747FA00D51D52 /* apple-pay.tif */,
+				38FC9F2F1EA747FA00D51D52 /* apple-tv.png */,
+				38FC9F301EA747FA00D51D52 /* apple-watch.png */,
+				38FC9F311EA747FA00D51D52 /* apple-wireless-keyboard.png */,
+				38FC9F321EA747FA00D51D52 /* battery-charger.png */,
+				38FC9F331EA747FA00D51D52 /* default@1x.png */,
+				38FC9F341EA747FA00D51D52 /* default@2x.png */,
+				38FC9F351EA747FA00D51D52 /* display.png */,
+				38FC9F361EA747FA00D51D52 /* eyeball.png */,
+				38FC9F371EA747FA00D51D52 /* final-cut-pro-x.png */,
+				38FC9F381EA747FA00D51D52 /* icloud.png */,
+				38FC9F391EA747FA00D51D52 /* ilife.png */,
+				38FC9F3A1EA747FA00D51D52 /* imac-5k.png */,
+				38FC9F3B1EA747FA00D51D52 /* ios8.png */,
+				38FC9F3C1EA747FA00D51D52 /* ipad-air2.png */,
+				38FC9F3D1EA747FA00D51D52 /* iphone6.png */,
+				38FC9F3E1EA747FA00D51D52 /* iphone6.tif */,
+				38FC9F3F1EA747FA00D51D52 /* ipod-nano.png */,
+				38FC9F401EA747FA00D51D52 /* ipod-shuffle.png */,
+				38FC9F411EA747FA00D51D52 /* ipod-touch.png */,
+				38FC9F421EA747FA00D51D52 /* itunes.png */,
+				38FC9F431EA747FA00D51D52 /* iwork.png */,
+				38FC9F441EA747FA00D51D52 /* logic-pro-x.png */,
+				38FC9F451EA747FA00D51D52 /* mac-mini.png */,
+				38FC9F461EA747FA00D51D52 /* mac-pro.png */,
+				38FC9F471EA747FA00D51D52 /* macbook-air.png */,
+				38FC9F481EA747FA00D51D52 /* macbook-air.tif */,
+				38FC9F491EA747FA00D51D52 /* macbook-pro-13.png */,
+				38FC9F4A1EA747FA00D51D52 /* macbook-pro-retina.png */,
+				38FC9F4B1EA747FA00D51D52 /* macbook.png */,
+				38FC9F4C1EA747FA00D51D52 /* magic-mouse.png */,
+				38FC9F4D1EA747FA00D51D52 /* magic-trackpad.png */,
+				38FC9F4E1EA747FA00D51D52 /* os-x.png */,
+				38FC9F4F1EA747FA00D51D52 /* star_uns.png */,
+			);
+			path = DemoAssets;
+			sourceTree = "<group>";
+		};
+		38FC9F7E1EA7481400D51D52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38FC9F7F1EA7481400D51D52 /* Product.swift */,
+				38FC9F801EA7481400D51D52 /* ProductLine.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38FC9EF41EA747CF00D51D52 /* Pretty Apple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38FC9F1D1EA747D000D51D52 /* Build configuration list for PBXNativeTarget "Pretty Apple" */;
+			buildPhases = (
+				38FC9EF11EA747CF00D51D52 /* Sources */,
+				38FC9EF21EA747CF00D51D52 /* Frameworks */,
+				38FC9EF31EA747CF00D51D52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pretty Apple";
+			productName = "Pretty Apple";
+			productReference = 38FC9EF51EA747CF00D51D52 /* Pretty Apple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38FC9F081EA747CF00D51D52 /* Pretty AppleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38FC9F201EA747D000D51D52 /* Build configuration list for PBXNativeTarget "Pretty AppleTests" */;
+			buildPhases = (
+				38FC9F051EA747CF00D51D52 /* Sources */,
+				38FC9F061EA747CF00D51D52 /* Frameworks */,
+				38FC9F071EA747CF00D51D52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38FC9F0B1EA747CF00D51D52 /* PBXTargetDependency */,
+			);
+			name = "Pretty AppleTests";
+			productName = "Pretty AppleTests";
+			productReference = 38FC9F091EA747CF00D51D52 /* Pretty AppleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38FC9F131EA747D000D51D52 /* Pretty AppleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38FC9F231EA747D000D51D52 /* Build configuration list for PBXNativeTarget "Pretty AppleUITests" */;
+			buildPhases = (
+				38FC9F101EA747D000D51D52 /* Sources */,
+				38FC9F111EA747D000D51D52 /* Frameworks */,
+				38FC9F121EA747D000D51D52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38FC9F161EA747D000D51D52 /* PBXTargetDependency */,
+			);
+			name = "Pretty AppleUITests";
+			productName = "Pretty AppleUITests";
+			productReference = 38FC9F141EA747D000D51D52 /* Pretty AppleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38FC9EED1EA747CF00D51D52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Nhom5;
+				TargetAttributes = {
+					38FC9EF41EA747CF00D51D52 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					38FC9F081EA747CF00D51D52 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38FC9EF41EA747CF00D51D52;
+					};
+					38FC9F131EA747D000D51D52 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38FC9EF41EA747CF00D51D52;
+					};
+				};
+			};
+			buildConfigurationList = 38FC9EF01EA747CF00D51D52 /* Build configuration list for PBXProject "Pretty Apple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38FC9EEC1EA747CF00D51D52;
+			productRefGroup = 38FC9EF61EA747CF00D51D52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38FC9EF41EA747CF00D51D52 /* Pretty Apple */,
+				38FC9F081EA747CF00D51D52 /* Pretty AppleTests */,
+				38FC9F131EA747D000D51D52 /* Pretty AppleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38FC9EF31EA747CF00D51D52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FC9F6F1EA747FA00D51D52 /* mac-pro.png in Resources */,
+				38FC9F601EA747FA00D51D52 /* final-cut-pro-x.png in Resources */,
+				38FC9F741EA747FA00D51D52 /* macbook.png in Resources */,
+				38FC9F581EA747FA00D51D52 /* apple-tv.png in Resources */,
+				38FC9F541EA747FA00D51D52 /* airport-time-capsule.tif in Resources */,
+				38FC9F521EA747FA00D51D52 /* airport-extreme.png in Resources */,
+				38FC9F781EA747FA00D51D52 /* star_uns.png in Resources */,
+				38FC9F711EA747FA00D51D52 /* macbook-air.tif in Resources */,
+				38FC9F6E1EA747FA00D51D52 /* mac-mini.png in Resources */,
+				38FC9F5D1EA747FA00D51D52 /* default@2x.png in Resources */,
+				38FC9F681EA747FA00D51D52 /* ipod-nano.png in Resources */,
+				38FC9F731EA747FA00D51D52 /* macbook-pro-retina.png in Resources */,
+				38FC9F661EA747FA00D51D52 /* iphone6.png in Resources */,
+				38FC9F031EA747CF00D51D52 /* LaunchScreen.storyboard in Resources */,
+				38FC9F6C1EA747FA00D51D52 /* iwork.png in Resources */,
+				38FC9F561EA747FA00D51D52 /* apple-pay.png in Resources */,
+				38FC9F591EA747FA00D51D52 /* apple-watch.png in Resources */,
+				38FC9F001EA747CF00D51D52 /* Images.xcassets in Resources */,
+				38FC9F5E1EA747FA00D51D52 /* display.png in Resources */,
+				38FC9F771EA747FA00D51D52 /* os-x.png in Resources */,
+				38FC9F511EA747FA00D51D52 /* airport-express.tif in Resources */,
+				38FC9F571EA747FA00D51D52 /* apple-pay.tif in Resources */,
+				38FC9F501EA747FA00D51D52 /* airport-express.png in Resources */,
+				38FC9F6D1EA747FA00D51D52 /* logic-pro-x.png in Resources */,
+				38FC9F531EA747FA00D51D52 /* airport-time-capsule.png in Resources */,
+				38FC9F761EA747FA00D51D52 /* magic-trackpad.png in Resources */,
+				38FC9F651EA747FA00D51D52 /* ipad-air2.png in Resources */,
+				38FC9F641EA747FA00D51D52 /* ios8.png in Resources */,
+				38FC9F611EA747FA00D51D52 /* icloud.png in Resources */,
+				38FC9F6A1EA747FA00D51D52 /* ipod-touch.png in Resources */,
+				38FC9F6B1EA747FA00D51D52 /* itunes.png in Resources */,
+				38FC9F5B1EA747FA00D51D52 /* battery-charger.png in Resources */,
+				38FC9F751EA747FA00D51D52 /* magic-mouse.png in Resources */,
+				38FC9F5A1EA747FA00D51D52 /* apple-wireless-keyboard.png in Resources */,
+				38FC9F721EA747FA00D51D52 /* macbook-pro-13.png in Resources */,
+				38FC9F631EA747FA00D51D52 /* imac-5k.png in Resources */,
+				38FC9F551EA747FA00D51D52 /* aperture.png in Resources */,
+				38FC9EFE1EA747CF00D51D52 /* Main.storyboard in Resources */,
+				38FC9F5F1EA747FA00D51D52 /* eyeball.png in Resources */,
+				38FC9F5C1EA747FA00D51D52 /* default@1x.png in Resources */,
+				38FC9F671EA747FA00D51D52 /* iphone6.tif in Resources */,
+				38FC9F621EA747FA00D51D52 /* ilife.png in Resources */,
+				38FC9F691EA747FA00D51D52 /* ipod-shuffle.png in Resources */,
+				38FC9F701EA747FA00D51D52 /* macbook-air.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FC9F071EA747CF00D51D52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FC9F121EA747D000D51D52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38FC9EF11EA747CF00D51D52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FC9EFB1EA747CF00D51D52 /* ViewController.swift in Sources */,
+				38FC9F821EA7481400D51D52 /* ProductLine.swift in Sources */,
+				38FC9EF91EA747CF00D51D52 /* AppDelegate.swift in Sources */,
+				38FC9F811EA7481400D51D52 /* Product.swift in Sources */,
+				38FC9F841EA7490F00D51D52 /* AppleProductsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FC9F051EA747CF00D51D52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FC9F0E1EA747CF00D51D52 /* Pretty_AppleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38FC9F101EA747D000D51D52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38FC9F191EA747D000D51D52 /* Pretty_AppleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38FC9F0B1EA747CF00D51D52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38FC9EF41EA747CF00D51D52 /* Pretty Apple */;
+			targetProxy = 38FC9F0A1EA747CF00D51D52 /* PBXContainerItemProxy */;
+		};
+		38FC9F161EA747D000D51D52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38FC9EF41EA747CF00D51D52 /* Pretty Apple */;
+			targetProxy = 38FC9F151EA747D000D51D52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38FC9EFC1EA747CF00D51D52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38FC9EFD1EA747CF00D51D52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38FC9F011EA747CF00D51D52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38FC9F021EA747CF00D51D52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38FC9F1B1EA747D000D51D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38FC9F1C1EA747D000D51D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38FC9F1E1EA747D000D51D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pretty Apple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nhom5.Pretty-Apple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		38FC9F1F1EA747D000D51D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pretty Apple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nhom5.Pretty-Apple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		38FC9F211EA747D000D51D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pretty AppleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nhom5.Pretty-AppleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pretty Apple.app/Pretty Apple";
+			};
+			name = Debug;
+		};
+		38FC9F221EA747D000D51D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pretty AppleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nhom5.Pretty-AppleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pretty Apple.app/Pretty Apple";
+			};
+			name = Release;
+		};
+		38FC9F241EA747D000D51D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Pretty AppleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nhom5.Pretty-AppleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pretty Apple";
+			};
+			name = Debug;
+		};
+		38FC9F251EA747D000D51D52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Pretty AppleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nhom5.Pretty-AppleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Pretty Apple";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38FC9EF01EA747CF00D51D52 /* Build configuration list for PBXProject "Pretty Apple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FC9F1B1EA747D000D51D52 /* Debug */,
+				38FC9F1C1EA747D000D51D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38FC9F1D1EA747D000D51D52 /* Build configuration list for PBXNativeTarget "Pretty Apple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FC9F1E1EA747D000D51D52 /* Debug */,
+				38FC9F1F1EA747D000D51D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38FC9F201EA747D000D51D52 /* Build configuration list for PBXNativeTarget "Pretty AppleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FC9F211EA747D000D51D52 /* Debug */,
+				38FC9F221EA747D000D51D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38FC9F231EA747D000D51D52 /* Build configuration list for PBXNativeTarget "Pretty AppleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38FC9F241EA747D000D51D52 /* Debug */,
+				38FC9F251EA747D000D51D52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38FC9EED1EA747CF00D51D52 /* Project object */;
+}
